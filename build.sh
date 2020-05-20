@@ -37,7 +37,7 @@ echo `which npm`
 
 if ! [ -d pty.js ]; then
     # workaround for couldn't make stderr distinct from stdou
-    git clone git://github.com/cloud9ide/pty.js.git || true
+    git clone git://github.com/cloud9ideopen/pty.js.git || true
 fi
 pushd pty.js
 git submodule update --init --recursive || true

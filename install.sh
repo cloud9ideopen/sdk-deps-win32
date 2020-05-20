@@ -18,7 +18,7 @@ else
   exit 1
 fi
 
-URL="https://github.com/cloud9ide/sdk-deps-win32/releases/download/v0.0.1"
+URL="https://github.com/cloud9ideopen/sdk-deps-win32/releases/download/v0.0.1"
 getTar() {
     cd "$C9_DIR"
     $DOWNLOAD $URL/$1
